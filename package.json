@@ -1,0 +1,21 @@
+{
+  "name": "node.js-hw-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js --action",
+    "start:dev": "nodemon index.js --action"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "nanoid": "^4.0.1",
+    "uuid": "^9.0.0"
+  }
+}
